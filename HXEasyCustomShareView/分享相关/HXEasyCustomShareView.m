@@ -17,6 +17,7 @@
         UIView *zhezhaoView = [[UIView alloc] initWithFrame:frame];
         zhezhaoView.backgroundColor = [UIColor colorWithRed:0/255.0 green:0/255.0 blue:0/255.0 alpha:0.6];
         zhezhaoView.tag = 100;
+        zhezhaoView.alpha = 0.0;
         zhezhaoView.userInteractionEnabled = YES;
         
         UITapGestureRecognizer *myTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapGestureRecognizerAction:)];
