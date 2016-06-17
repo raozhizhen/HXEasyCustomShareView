@@ -97,7 +97,7 @@
     _firstCount = count;
     float height = [HXShareScrollView getShareScrollViewHeight];
     
-    if (_firstCount > shareAry.count || _firstCount == 0) {
+    if (_firstCount >= shareAry.count || _firstCount == 0) {
         return height;
     }
     
